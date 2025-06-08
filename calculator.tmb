@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TESSYModule Version="4.0">
+  <Module>
+    <Name>Calculator</Name>
+    <SourceFile>calculator.c</SourceFile>
+    <HeaderFile>calculator.h</HeaderFile>
+    <Functions>
+      <Function>
+        <Name>add</Name>
+        <TestCases>
+          <TestCase>
+            <Name>Add_Positive_Numbers</Name>
+            <Inputs>
+              <Input name="a" value="2"/>
+              <Input name="b" value="3"/>
+            </Inputs>
+            <ExpectedReturn>5</ExpectedReturn>
+          </TestCase>
+        </TestCases>
+      </Function>
+      <Function>
+        <Name>subtract</Name>
+        <TestCases>
+          <TestCase>
+            <Name>Subtract_Positive</Name>
+            <Inputs>
+              <Input name="a" value="5"/>
+              <Input name="b" value="3"/>
+            </Inputs>
+            <ExpectedReturn>2</ExpectedReturn>
+          </TestCase>
+        </TestCases>
+      </Function>
+      <Function>
+        <Name>multiply</Name>
+        <TestCases>
+          <TestCase>
+            <Name>Multiply_Positive</Name>
+            <Inputs>
+              <Input name="a" value="2"/>
+              <Input name="b" value="4"/>
+            </Inputs>
+            <ExpectedReturn>8</ExpectedReturn>
+          </TestCase>
+        </TestCases>
+      </Function>
+      <Function>
+        <Name>divide</Name>
+        <TestCases>
+          <TestCase>
+            <Name>Divide_Positive</Name>
+            <Inputs>
+              <Input name="a" value="10"/>
+              <Input name="b" value="2"/>
+            </Inputs>
+            <ExpectedReturn>5</ExpectedReturn>
+          </TestCase>
+        </TestCases>
+      </Function>
+    </Functions>
+  </Module>
+</TESSYModule>
