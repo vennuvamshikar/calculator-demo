@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmo>
+    <module>
+        <name>calculator</name>
+        <sourceFile>calculator.c</sourceFile>
+        <headerFile>calculator.h</headerFile>
+        <functions>
+            <function>
+                <name>add</name>
+                <returnType>int</returnType>
+                <parameters>
+                    <param name="a" type="int"/>
+                    <param name="b" type="int"/>
+                </parameters>
+            </function>
+            <function>
+                <name>sub</name>
+                <returnType>int</returnType>
+                <parameters>
+                    <param name="a" type="int"/>
+                    <param name="b" type="int"/>
+                </parameters>
+            </function>
+            <function>
+                <name>mul</name>
+                <returnType>int</returnType>
+                <parameters>
+                    <param name="a" type="int"/>
+                    <param name="b" type="int"/>
+                </parameters>
+            </function>
+            <function>
+                <name>divide</name>
+                <returnType>int</returnType>
+                <parameters>
+                    <param name="a" type="int"/>
+                    <param name="b" type="int"/>
+                </parameters>
+            </function>
+        </functions>
+    </module>
+</tmo>
