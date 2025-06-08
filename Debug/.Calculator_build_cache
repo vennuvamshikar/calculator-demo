@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BuildDb>
+    <Tool>
+        <Name>linker</Name>
+        <Parent>
+            <Path>C:\Users\METALOGYC\Desktop\Calculator\Debug\Exe\Calculator.out</Path>
+            <Output>
+                <Path>C:\Users\METALOGYC\Desktop\Calculator\Debug\List\Calculator.map</Path>
+            </Output>
+        </Parent>
+    </Tool>
+</BuildDb>

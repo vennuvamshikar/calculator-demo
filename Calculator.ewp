@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <fileVersion>2</fileVersion>
+  <name>Calculator</name>
+  <toolchain>
+    <name>ARM</name>
+  </toolchain>
+  <configuration>
+    <name>Debug</name>
+    <toolchain>
+      <name>ARM</name>
+      <options>
+        <option>
+          <name>CCIncludePath2</name>
+          <state>$PROJ_DIR$</state>
+        </option>
+        <option>
+          <name>OGChipSelectEditMenu</name>
+          <state>Simulator</state>
+        </option>
+      </options>
+    </toolchain>
+  </configuration>
+  <group>
+    <name>Source Files</name>
+    <file>
+      <name>calculator.c</name>
+      <path>$PROJ_DIR$/calculator.c</path>
+    </file>
+  </group>
+</project>

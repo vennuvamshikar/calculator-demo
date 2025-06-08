@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tpy.xsd">
+  <Header version="1.0"/>
+  <ProjectName>Calculator_TESSY_Project</ProjectName>
+  <TestModules>
+    <TestModule>
+      <ModuleName>calculator_test</ModuleName>
+      <SourceFile>calculator.c</SourceFile>
+      <HeaderFile>calculator.h</HeaderFile>
+      <FunctionsUnderTest>
+        <Function>calculate</Function>
+      </FunctionsUnderTest>
+    </TestModule>
+  </TestModules>
+</Project>
